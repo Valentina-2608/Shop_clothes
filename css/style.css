@@ -34,7 +34,6 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: gray;
 }
 
 
@@ -44,7 +43,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
 }
 
 #field_search{
@@ -85,7 +83,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:yellow;
 }
 
 
