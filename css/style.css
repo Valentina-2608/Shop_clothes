@@ -6,8 +6,9 @@
 .main{
     width:100%;
     height:1000px;
-    background-color: lavender;
     display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
 }
 
 /* header */
@@ -22,4 +23,82 @@ header{
     font-size:30px;
     font-weight: bold;
     color:white;
-};
+}
+
+
+/* Block search */
+
+.block_search{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+
+.search{
+    width:50%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+#field_search{
+    height:40px;
+    width:60%;
+    border:none;
+    border-bottom:2px solid #8DA2DB;
+    font-size:16px;
+   
+}
+
+#field_search:focus{
+    outline: none;
+}
+
+#btn_search{
+    padding:5px;
+    height:40px;
+    width:20%;
+    border:none;
+    border-radius: 5px;
+    background-color:#4060B8;
+    color:white;
+    font-size:20px;
+    box-shadow: 5px 5px 5px #8DA2DB;
+}
+
+
+#btn_search:hover{
+    cursor: pointer;
+}
+
+
+
+.buttons{
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:yellow;
+}
+
+
+.buttons button{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+button:hover{
+    cursor: pointer;
+}
