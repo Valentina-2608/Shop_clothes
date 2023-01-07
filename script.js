@@ -39,11 +39,11 @@ function load(){
 
 
 let products  = document.getElementById('products');
-let btn_all = document.getElementById('btn_all');
-let btn_dress = document.getElementById('btn_dress');
-let btn_top = document.getElementById('btn_top');
-let btn_sweater= document.getElementById('btn_sweater');
-let btn_jackets = document.getElementById('btn_jackets');
+let btn_all = document.querySelector('.btn_all');
+let btn_dress = document.querySelector('.btn_dress');
+let btn_top = document.querySelector('.btn_top');
+let btn_sweater= document.querySelector('.btn_sweater');
+let btn_jackets = document.querySelector('.btn_jackets');
 
 
 /* function showDresses */
