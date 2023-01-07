@@ -117,7 +117,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
 }
 
 
@@ -129,6 +129,7 @@ button:hover{
     height:400px;
     background-color: black;
     color:white;
+    margin-left:3%;
 }
 
 
