@@ -101,7 +101,7 @@ let goods = [
 {
     "id":15,
     "image":"img/dress_5.jpg",
-    "caption":"Chambray Shirtdress",
+    "caption":"Chambray Dress",
     "price":"168$",
     "size":"XS, S, M, L, XL"
 },
