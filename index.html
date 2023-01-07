@@ -5,8 +5,35 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="goods.js"></script>
 </head>
-<body>
+<body onload="load()">
+	<div class="main">
+		<header>
+			Shop Clothes
+		</header>
+		<div class="block_search">
+			<div class="search">
+				<input type="text" id="field_search" placeholder="Seach product here">
+				<button id="btn_search">Seach</button>
+			</div>
+			<div class="buttons">
+				<button class="btn_all btn_active">View All</button>
+				<button class="btn_dress">Dress</button>
+				<button class="btn_top">Top</button>
+				<button class="btn_sweater">Sweater</button>
+				<button class="btn_jackets">Jacket</button>
+			</div>
+	</div>
+	<div class="content">
+		<div id="products">
 
+		</div>
+	</div>
+	<footer>
+		<div>2023. All pictures were found in Google and on various sites.</div>
+	</footer>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>

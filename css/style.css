@@ -1,3 +1,222 @@
 /* Styles */
 
-.
+/* Block main */
+
+
+.main{
+    width:100%;
+    height:2250px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+/* header */
+
+header{
+    width:100%;
+    height:100px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+}
+
+
+/* Block search */
+
+.block_search{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.search{
+    width:50%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#field_search{
+    height:40px;
+    width:60%;
+    border:none;
+    border-bottom:2px solid #8DA2DB;
+    font-size:16px;
+   
+}
+
+#field_search:focus{
+    outline: none;
+}
+
+#btn_search{
+    padding:5px;
+    height:40px;
+    width:20%;
+    border:none;
+    border-radius: 5px;
+    background-color:#4060B8;
+    color:white;
+    font-size:20px;
+    box-shadow: 5px 5px 5px #8DA2DB;
+}
+
+
+#btn_search:hover{
+    cursor: pointer;
+}
+
+
+
+.buttons{
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.btn_dress{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+
+.btn_top{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+.btn_sweater{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+
+.btn_jackets{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+
+.btn_all{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* Block content */
+
+.content{
+    width:100%;
+    height:1850px;
+    display: flex;
+}
+
+ #products{
+    width:100%;
+    height:1850px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+
+/* Card */
+
+
+.card{
+    width:21%;
+    height:400px;
+    background-color: black;
+    color:white;
+    margin-left:3%;
+}
+
+
+.card img{
+    width:100%;
+}
+
+.card_caption{
+    font-size:20px;
+    color:#F7E3D3;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.card_price{
+    margin-left:10px;
+    margin-top:20px;
+    line-height: 1.5;
+}
+
+
+/* footer */
+
+footer{
+    width:100%;
+    height:100px;
+    background-color: gray;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    font-size:18px;
+}
+
+
+footer div{
+    margin-left:30px;
+}
+
+
+/* Active button */
+
+.btn_active{
+    background-color:#4060B8;
+    color:white;
+}
