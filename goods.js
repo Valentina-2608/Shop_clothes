@@ -2,7 +2,7 @@ let goods = [
 {
     "id":1,
     "image":"img/top_1.jpg",
-    "caption":"Tie-Front Blouse",
+    "caption":"Tie-Front Top",
     "price":"168$",
     "size":"XS, S, M, L"
 
@@ -93,7 +93,7 @@ let goods = [
 },
 {
     "id":14,
-    "image":"img/top_3.jpg",
+    "image":"img/top_4.jpg",
     "caption":"Tie-Front Top",
     "price":"158$",
     "size":"S, M, L, XL"
