@@ -145,7 +145,7 @@ function checkButton(btn){
 	}
 }
 
-
+/* function for show goods using input */
 
 let field_search = document.getElementById('field_search');
 let btn_search = document.getElementById('btn_search');
