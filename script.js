@@ -132,6 +132,7 @@ function showAll(){
 
 
 
+
 /* function, which add and remove class */
 
 function checkButton(btn){
@@ -142,4 +143,35 @@ function checkButton(btn){
 				btn.classList.add('btn_active');
 			}
 	}
+}
+
+
+
+let field_search = document.getElementById('field_search');
+let btn_search = document.getElementById('btn_search');
+
+btn_search.addEventListener('click', showGoods);
+function showGoods(){
+	
+
+	let cards = document.querySelectorAll('.card');
+	for(let card of cards){
+		let searchValue = field_search.value.substring(0,1).toUpperCase() + field_search.value.substring(1);
+		if (card.innerHTML.includes(searchValue)){
+			card.style.display = 'block';
+		}else{
+			card.style.display = 'none';
+		}
+
+	let btns = document.querySelectorAll('button');
+	for(let btn of btns){
+		if(btn.innerHTML === searchValue){
+			checkButton(btn);
+		}
+	}
+}
+
+
+field_search.value= '';
+
 }
