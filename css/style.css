@@ -86,7 +86,7 @@ header{
 }
 
 
-.buttons button{
+.btn_dress{
     height:40px;
     width:11%;
     border:2px solid #4060B8;
@@ -96,9 +96,54 @@ header{
     font-size:18px;
 }
 
+
+.btn_top{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+.btn_sweater{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+
+.btn_jackets{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+
+.btn_all{
+    height:40px;
+    width:11%;
+    border:2px solid #4060B8;
+    border-radius: 18px;
+    background-color:white;
+    color:darkblue;
+    font-size:18px;
+}
+
+
 button:hover{
     cursor: pointer;
 }
+
 
 
 
@@ -166,4 +211,12 @@ footer{
 
 footer div{
     margin-left:30px;
+}
+
+
+/* Active button */
+
+.btn_active{
+    background-color:#4060B8;
+    color:white;
 }
