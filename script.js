@@ -50,6 +50,7 @@ let btn_jackets = document.querySelector('.btn_jackets');
 
 btn_dress.addEventListener('click', showDresses);
 function showDresses(){
+	checkButton(btn_dress);
 	let cards = document.querySelectorAll('.card');
 	for(let card of cards){
 		if(card.innerHTML.includes('Dress')){
@@ -66,6 +67,7 @@ function showDresses(){
 
 btn_top.addEventListener('click', showTops);
 function showTops(){
+	checkButton(btn_top);
 	let cards = document.querySelectorAll('.card');
 	for(let card of cards){
 		if(card.innerHTML.includes('Top')){
@@ -83,6 +85,7 @@ function showTops(){
 
 btn_sweater.addEventListener('click', showSweaters);
 function showSweaters(){
+	checkButton(btn_sweater);
 	let cards = document.querySelectorAll('.card');
 	for(let card of cards){
 		if(card.innerHTML.includes('Sweater')){
@@ -100,6 +103,7 @@ function showSweaters(){
 
 btn_jackets.addEventListener('click', showJackets);
 function showJackets(){
+	checkButton(btn_jackets);
 	let cards = document.querySelectorAll('.card');
 	for(let card of cards){
 		if(card.innerHTML.includes('Jacket')){
@@ -117,9 +121,25 @@ function showJackets(){
 
 btn_all.addEventListener('click', showAll);
 function showAll(){
+	checkButton(btn_all);
 	let cards = document.querySelectorAll('.card');
 	for(let card of cards){
 			card.style.display = 'block';
 			products.style.height = '1850px';
 		}
+}
+
+
+
+
+/* function, which add and remove class */
+
+function checkButton(btn){
+	let buttons = document.querySelectorAll('button');
+		for(let button of buttons){
+			if (button.classList.contains('btn_active')){
+				button.classList.remove('btn_active');
+				btn.classList.add('btn_active');
+			}
+	}
 }
